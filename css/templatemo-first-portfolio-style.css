@@ -1008,10 +1008,20 @@ strong {
 
 @media (max-width: 480px) {
     .hero-image {
-        width: 180%;
-        height: 180%;
-		padding-left: 140px;
-        padding-top: 40px;
+        width: 100%;
+        height: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-image img {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 50%;
     }
 }
 
