@@ -1008,8 +1008,8 @@ strong {
 
 @media (max-width: 480px) {
     .hero-image {
-        width: 250%;
-        height: 250%;
+        width: 180%;
+        height: 180%;
     }
 }
 
