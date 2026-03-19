@@ -1005,6 +1005,19 @@ strong {
 	  font-size: var(--h2-font-size);
 	}
 }
+@media (max-width: 768px) {
+    .hero-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-image {
+        width: 140px;
+        height: 140px;
+    }
+}
 
 @media screen and (max-width: 991px) {
   h1 {
