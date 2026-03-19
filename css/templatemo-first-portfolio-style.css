@@ -1017,8 +1017,8 @@ strong {
     }
 
     .hero-image img {
-        width: 200px;
-        height: 200px;
+        width: 180%;
+        height: 180%;
         object-fit: cover;
         object-position: center;
         border-radius: 50%;
